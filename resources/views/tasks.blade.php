@@ -35,16 +35,7 @@
     </div>
 
     <!-- 代辦：目前任務 -->
-    @extends('layouts.app')
-@section('content')
-    …
-    <!-- 顯示驗證錯誤 -->
-    @include('common.errors')
-    <!-- 新任務的表單 -->
-    <form …>
-        …
-    </form>
-    <!-- 目前任務 -->
+    
     @if (count($tasks) > 0)
         …
         <tbody>
